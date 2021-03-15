@@ -5,12 +5,12 @@ name: Flutter PR
 # - Будет запущен на любой Pull Request в sprint-ветку.
 # - Не будет запущен, если изменения в Pull Request затрагивают только документацию, Swagger или конфигурацию VS Code.
 on: [push, pull_request]
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
+  # pull_request:
+  #   branches:
+  #     - master
 
 jobs:
   build:
